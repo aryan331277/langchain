@@ -9,7 +9,7 @@ load_dotenv()
 
 
 os.environ['GEMINI_API_KEY']=os.getenv('GEMINI_API_KEY')
-os.environ['LANGCHAIN API KEY']=os.environ['LANGCHAIN API KEY']
+os.environ['LANGCHAIN_API_KEY']=os.environ['LANGCHAIN_API_KEY']
 #Langsmith
 os.environ['LANGCHAIN_TRACING_V2']="true"
 
